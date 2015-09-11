@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Pythonizr",
+  "description": "He's not the Messiah, he's a very naughty boy!",
+  "version": "1.0",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["background.js"]
+    }],
+  "web_accessible_resources": [
+      "background.js"
+  ]
+}
