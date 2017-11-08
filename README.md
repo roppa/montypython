@@ -1,4 +1,4 @@
-#No one expects the Spanish Inquisition!
+# No one expects the Spanish Inquisition!
 
 It's ... a Chrome extension.
 
